@@ -62,3 +62,18 @@ export const formacionComplementaria = [
     periodo: "2021",
   },
 ];
+
+export default function Experiencia() {
+  return (
+    <section>
+      <h3>Formación Complementaria</h3>
+      <ul>
+        {formacionComplementaria.map((item) => (
+          <li key={item.id}>
+            <strong>{item.puesto}</strong> - {item.empresa} ({item.periodo})
+          </li>
+        ))}
+      </ul>
+    </section>
+  );
+}

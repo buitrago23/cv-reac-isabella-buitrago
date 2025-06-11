@@ -1,12 +1,12 @@
 
 export const cabecera = {
-  nombre: "Nombre del Aprendiz",
-  profesion: "Desarrollador UI Frontend"
+  nombre: "Isabella Buitrago Gallego",
+  profesion: "Desarrolladora Full Stack y Cloud Engineer"
 };
 
 export const perfil = {
   texto:
-    "Tecnólogo en Análisis y Desarrollo de Software con experiencia en desarrollo web y móvil, apasionado por la tecnología."
+    "Tecnóloga en Análisis y Desarrollo de Software con experiencia en desarrollo web y móvil, apasionada por la tecnología."
 };
 
 export const educacion = [
@@ -21,7 +21,7 @@ export const educacion = [
 export const experiencia = [
   {
     id: 1,
-    puesto: "Desarrollador Full Stack",
+    puesto: "Desarrolladora Full Stack",
     empresa: "Navisoft Gaming",
     periodo: "2022-2024"
   },

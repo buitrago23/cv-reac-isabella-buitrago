@@ -8,6 +8,7 @@ import { cabecera, perfil, educacion, experiencia, stackTecnologias } from "./da
 function App() {
   return (
     <div>
+      
       <CabeceraCV nombre={cabecera.nombre} profesion={cabecera.profesion} />
       <Perfil texto={perfil.texto} />
       <Educacion estudios={educacion} />

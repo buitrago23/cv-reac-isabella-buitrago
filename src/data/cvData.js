@@ -82,7 +82,7 @@ export const experiencia = [
   },
   {
     id: 9,
-    puesto: "Curso de Natación Técnica",
+    puesto: "Curso de Natación Técnica,",
     empresa: "AquaFit",
     periodo: "2023",
     descripcion: "Perfeccionamiento de estilos de nado y respiración controlada."

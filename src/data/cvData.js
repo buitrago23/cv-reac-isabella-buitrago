@@ -91,7 +91,7 @@ export const experiencia = [
     id: 10,
     puesto: "Curso de Técnica Vocal y Canto",
     empresa: "Escuela de Artes Escénicas",
-    periodo: "2021",
+    periodo: "2021.",
     descripcion: "Entrenamiento vocal y expresión escénica en canto popular."
   }
 ];

@@ -101,7 +101,7 @@ export const experiencia = [
 export const proyectos = [
   {
     id: 1,
-    nombre: "Gestor de Tareas",
+    nombre: "Gestor de Tareas.",
     descripcion: "Aplicación web para gestionar tareas personales con autenticación y almacenamiento en la nube.",
     tecnologias: ["React", "Node.js", "MongoDB", "AWS"]
   },

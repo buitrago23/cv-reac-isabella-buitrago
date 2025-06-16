@@ -120,6 +120,6 @@ export const stackTecnologias = [
 
 export const habilidades = [
   "Trabajo en equipo.",
-  "Comunicación asertiva",
+  "Comunicación asertiva.",
   "Resolución de problemas"
 ];

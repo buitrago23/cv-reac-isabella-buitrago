@@ -1,4 +1,3 @@
-// src/components/Habilidades.jsx
 import React from "react";
 
 export default function Habilidades({ habilidades }) {
@@ -6,7 +5,7 @@ export default function Habilidades({ habilidades }) {
     return (
       <section>
         <h3>Habilidades</h3>
-        <p>No se han definido habilidades.</p>
+        <p>No hay habilidades registradas.</p>
         <hr />
       </section>
     );
@@ -16,10 +15,8 @@ export default function Habilidades({ habilidades }) {
     <section>
       <h3>Habilidades</h3>
       <ul>
-        {habilidades.map(({ id, nombre, nivel }) => (
-          <li key={id}>
-            {nombre} <em>({nivel})</em>
-          </li>
+        {habilidades.map((hab, idx) => (
+          <li key={idx}>{hab}</li>
         ))}
       </ul>
       <hr />

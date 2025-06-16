@@ -1,4 +1,3 @@
-// src/components/Proyectos.jsx
 import React from "react";
 
 export default function Proyectos({ proyectos }) {
@@ -6,7 +5,7 @@ export default function Proyectos({ proyectos }) {
     return (
       <section>
         <h3>Proyectos</h3>
-        <p>No se han registrado proyectos.</p>
+        <p>No hay proyectos registrados.</p>
         <hr />
       </section>
     );
@@ -16,13 +15,11 @@ export default function Proyectos({ proyectos }) {
     <section>
       <h3>Proyectos</h3>
       <ul>
-        {proyectos.map(({ id, nombre, descripcion, enlace }) => (
-          <li key={id} style={{ marginBottom: "8px" }}>
-            <strong>{nombre}</strong>
-            <p>{descripcion}</p>
-            <a href={enlace} target="_blank" rel="noopener noreferrer">
-              Ver repositorio
-            </a>
+        {proyectos.map(({ id, nombre, descripcion, tecnologias }) => (
+          <li key={id}>
+            <strong>{nombre}</strong>: {descripcion}
+            <br />
+            <em>Tecnologías:</em> {tecnologias.join(", ")}
           </li>
         ))}
       </ul>
